@@ -6,6 +6,17 @@
     box-sizing: border-box;
     
 }
+.grass{
+    
+    position: absolute;
+   
+    background-color: transparent;
+    bottom:-30px;
+    right:20px;
+    
+
+    
+}
 .bear1{
     position: absolute;
     background-color: transparent;
