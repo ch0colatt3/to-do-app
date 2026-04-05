@@ -6,6 +6,22 @@
     box-sizing: border-box;
     
 }
+.car{
+    position:absolute;
+    top:0%;
+    left:33%;
+}
+.fly2{
+    position:absolute;
+    top:5%;
+    left:65%;
+}
+.fly{
+    position: absolute;
+    background-color: transparent;
+    bottom: 350px;
+    left:0px;
+}
 .grass{
     
     position: absolute;
@@ -20,8 +36,8 @@
 .bear1{
     position: absolute;
     background-color: transparent;
-    bottom:0;
-    left:0px;
+    bottom:-10px;
+    left:-10px;
 }
 .sun2{
     position: absolute;
@@ -42,7 +58,14 @@
     background-color: transparent;
     top:0;
     left:0;
-
+}
+.branch{
+    position:absolute;
+    padding: 10;
+    background-color: transparent;
+    bottom:250px;
+    right:0;
+    -webkit-transform:scaleX(-1);
 
 }
  .container {
@@ -50,7 +73,7 @@
     width:100%;
     min-height: 100vh;
     padding: 10 px;
-    background: linear-gradient(135deg, #fff, #e8b9f4);} 
+    background: linear-gradient(135deg, #fff, #f4b9e7);} 
  
 
 
@@ -205,7 +228,7 @@ ul li span{
 }
 
 ul li span:hover{
-    background: #ffffff;
+    background: #ebebeb;
 }
 
 
