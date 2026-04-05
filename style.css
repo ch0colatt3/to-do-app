@@ -7,7 +7,12 @@
     
 }
 
-
+.sun1{
+    position: absolute;
+    background-color: transparent;
+    top:0;
+    right:20px;
+}
 .cat1{
     position: absolute;
     background-color: transparent;
