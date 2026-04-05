@@ -1,0 +1,247 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.hero{
+    position:absolute;
+    padding: 10;
+    background-color: transparent;
+    top:0;
+    left:0;
+
+
+}
+ .container {
+    position: center;
+    width:100%;
+    min-height: 100vh;
+    padding: 10 px;
+    background: linear-gradient(135deg, #fff, #e8b9f4);} 
+ 
+
+
+
+.todo-app{
+
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 40px;
+    padding: 40px 30px 70px;
+    border-radius:30px;
+    
+    color: #ffbdcf;
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+ 
+  bottom: 500px;
+  top:70%;
+    
+ 
+    
+
+
+}
+
+.todo-app h2{
+     
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  
+
+}
+
+
+
+.todo-app h2 img{
+    
+    height: 70px;
+    width: 80px;
+    margin-left: 9px;
+
+}
+.row{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eeebeb;
+    border-radius: 60px;
+    padding-left:0px;
+    margin-bottom: 40px;
+     
+}
+input{
+    
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+   
+    
+
+}
+button{
+ 
+    border:none;
+    outline: none;
+    padding:16px 50px ;
+    background: #E1A1B2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:40px;
+font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+
+
+}
+ul li{
+    
+    list-style:none;
+
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+     font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+
+    
+    font-style: normal;
+    color:#A265A1;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: 8px
+
+
+
+}
+ul li.checked{
+    color:  #A265A1;;
+    text-decoration: line-through;
+
+}
+ul li.checked::before{
+  
+    background-image: url(https://gcdnb.pbrd.co/images/InWNm3DVCRDh.png?o=1);
+    width: 90 px;
+    height: 90 px;
+  
+    
+   
+    
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color:  #A265A1;;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+
+}
+
+ul li span:hover{
+    background: #ffffff;
+}
+
+
+/* Timer */
+
+body{
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+    text-align: center;
+    padding: 0px;
+    
+    
+}
+h1{
+    
+   font-size: 50px;
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+    text-align: center;
+    padding: 30px;
+    position:relative;
+    top:5%;
+
+}
+#inputSection{
+    margin-bottom: 10 px;
+    margin: 20px auto 10px;
+    background: white;
+    padding: 20px 30px 20px;
+    display: inline-block; 
+    border-radius: 20px;
+
+}
+
+input[type="datetime-local"] {
+    padding:10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px
+}
+#countdown{
+    
+    font-size:30px;
+    background: white;
+    padding: 40px 80px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  
+    align-items: center;
+    position: inherit;
+    top:50%;
+
+
+   
+    
+}
+
+
+
+    
