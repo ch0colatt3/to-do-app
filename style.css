@@ -8,7 +8,12 @@
 }
 
 
-
+.cb1{
+    position: absolute;
+    background-color: transparent;
+    bottom:0;
+    right:0;
+}
 
 .hero{
     position:absolute;
