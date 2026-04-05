@@ -209,8 +209,14 @@ h1{
     padding: 20px 30px 20px;
     
     border-radius: 20px;
-    position:relative;
+    
     align-items:center;
+   
+    max-width: 600px;
+   
+    margin: 10px auto 40px;
+    padding: 40px 30px 50px;
+  
 
 }
 
@@ -244,6 +250,7 @@ button {
     position: relative;
     top:50%;
      font-family: "Bitcount Grid Double Ink", system-ui;
+     
 
    
     
