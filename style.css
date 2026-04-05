@@ -59,6 +59,7 @@
     justify-content: center;
     font-family: "Bitcount Grid Double Ink", system-ui;
   font-optical-sizing: auto;
+  font-size:40px;
   
 
 }
@@ -124,6 +125,7 @@ ul li{
     position: relative;
      font-family: "Bitcount Grid Double Ink", system-ui;
   font-optical-sizing: auto;
+
 
     
     font-style: normal;
@@ -247,11 +249,10 @@ button {
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
   
     align-items: center;
-    position: relative;
+    
     top:50%;
      font-family: "Bitcount Grid Double Ink", system-ui;
      
-
    
     
 }
